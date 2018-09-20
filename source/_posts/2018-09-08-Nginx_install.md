@@ -87,15 +87,15 @@ nginx的编译需要c++，prce（重定向支持）和openssl（https支持）�
 
 ### 编译
 
-1. 进入nginx目录
+1.进入nginx目录
 
 	# cd nginx-1.9.9
 
-2. 设置安装目录
+2.设置安装目录
 
 	# ./configure --prefix=/usr/local/nginx
 
-3. 编译安装
+3.编译安装
 
 	# make
 	# make install
@@ -114,7 +114,7 @@ nginx的编译需要c++，prce（重定向支持）和openssl（https支持）�
 
 ### 设置开启启动
 
-1. 在/etc/init.d下创建文件nginx
+1.在/etc/init.d下创建文件nginx
 
 	# vi /etc/init.d/nginx
 
@@ -123,15 +123,15 @@ nginx的编译需要c++，prce（重定向支持）和openssl（https支持）�
 	nginx="/usr/local/nginx/sbin/nginx" 
 	NGINX_CONF_FILE="/usr/local/nginx/conf/nginx.conf" 
 
-2. 设置文件执行权限
+2.设置文件执行权限
 
 	# chmod a+x /etc/init.d/nginx
 
-3. 将nginx服务加入chkconfig管理列表
+3.将nginx服务加入chkconfig管理列表
 
 	# chkconfig --add /etc/init.d/nginx
 
-4. 开机自启动
+4.开机自启动
 
 	# chkconfig nginx on
 
