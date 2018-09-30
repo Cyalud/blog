@@ -9,7 +9,7 @@ categories:
 - hexo
 
 ---
-ps：markdown没有标准化，以下内容主要针对Hexo相关语法。
+ps：markdown没有标准化，以下内容为通用语法。
 <!-- more -->
 
 # What
